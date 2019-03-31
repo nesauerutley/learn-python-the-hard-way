@@ -21,9 +21,9 @@ print "The input file is %d bytes long" % len(indata)
 # prints a format boolean to the command line
 print "Does the output file exist? %r" % exists(to_file)
 # prints a string to the command line
-print "Ready, hit RETURN to continue, CTRL-C to abort."
+#print "Ready, hit RETURN to continue, CTRL-C to abort."
 # prompts the user for input
-raw_input()
+#raw_input()
 
 # assigns the variable out_file to the open argument to_file in write mode
 # out_file = open(to_file, 'w')
